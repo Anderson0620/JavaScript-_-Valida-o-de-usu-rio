@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #form{
+        
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+        width: 600px;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.397);
+    }
+    #formItens{
+        border-radius: 20px;
+        margin: auto;
+        padding: 30px;
+        width: 520px;
+        background: linear-gradient(black,rgba(0, 0, 0, 0.329));
+    }
+
+    #name {
+        margin: auto;
+        padding: 10px;
+        width: 500px;
+        display: flex;
+        text-align: center;
+        border-radius: 10px;
+        font: normal 20pt Arial;
+    }
+    #password {
+        border-radius: 10px;
+        margin: auto;
+        padding: 10px;
+        width: 500px;
+        display: flex;
+        text-align: center;
+        font: normal 20pt Arial;
+    }
+
+    button {
+        cursor: pointer;
+        transform:scale(25px);
+        transition: 1s;
+        border-radius: 10px;
+        margin-top: 5%;
+        width: 100px;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.301);
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <div id="form">
+            <form action="login" id="formItens">
+            <input type="text" id="name"/>
+            <br>
+            <input type="password" id="senha"/> 
+            <button type="submit">Entrar</button>
+            
+            </form>
+            <div id="res"></div>
+        </div>
+    </header>
+    <script src="formLogin/script.js"></script>
+</body>
+</html>
